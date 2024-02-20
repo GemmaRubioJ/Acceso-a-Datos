@@ -1,0 +1,51 @@
+﻿@model IEnumerable<MVC2024.Controllers.VehiculoController.VehiculoTotal>
+
+@{
+    ViewData["Title"] = "Listado4";
+}
+
+<h1>Procedimiento Almacenado con Parámetro</h1>
+
+<form method="get">
+    <select id="color" name="color" asp-items="ViewBag.losColores">
+    </select>
+    <input type="submit" />
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayName("Marca")
+            </th>
+            <th>
+                @Html.DisplayName("Modelo")
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Matricula)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Color)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NomMarca)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NomSerie)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Matricula)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Color)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
