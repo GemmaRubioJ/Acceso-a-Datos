@@ -1,0 +1,22 @@
+﻿<!--This is dropdown with SelectListItem from a list we invented-->
+<h1>Desplegable</h1>
+@Html.DropDownList("LasMarcas", new List<SelectListItem>{
+	new SelectListItem{Text="Audi", Value="1", Selected=true},
+	new SelectListItem{Text="BMW", Value="2"},
+	new SelectListItem{Text="Mercedes", Value="3"},
+	new SelectListItem{Text="Volkswagen", Value="4"},
+	new SelectListItem{Text="Ford", Value="5"},
+	new SelectListItem{Text="Fiat", Value="6"},
+	new SelectListItem{Text="Renault", Value="7"},
+	})
+<!--This is dropdown form database.-->	
+@Html.DropDownList("Marcas", "Selecciona una marca")
+
+<!--This is dropdown with foreach-->
+<select id="unasmarcas" name="unasmarcas">
+	@foreach (var item in ViewBag.Marcas2)
+	{
+		<option value="@item.ID">@item.NomMarca</option>
+	}
+
+</select>

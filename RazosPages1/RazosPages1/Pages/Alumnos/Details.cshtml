@@ -1,0 +1,19 @@
+﻿@page
+@model RazorPages1.Pages.Alumnos.DetailsModel
+@{
+    var photo = "~/images/" + (Model.alumno.Foto ?? "noimage.jpg");
+}
+
+
+<div class="card m-3" style="min-width: 18rem; max-width: 30%;">
+    <div class="card-header">
+        <h3>@Model.alumno.Nombre</h3>                    
+    </div>
+    <img class="card-img-top imageThumbail" asp-append-version="true" src="@photo">
+    <div class="card-footer text-center">
+        <h3>@Model.alumno.Id</h3>
+        <h3>@Model.alumno.Nombre</h3>
+        <h3>@Model.alumno.Email</h3>
+        <h3>@Model.alumno.CursoId</h3>
+    </div>
+</div>

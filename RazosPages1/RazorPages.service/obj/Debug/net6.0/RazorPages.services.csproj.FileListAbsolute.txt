@@ -1,0 +1,17 @@
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.service\bin\Debug\net6.0\RazorPages.services.deps.json
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.service\bin\Debug\net6.0\RazorPages.services.dll
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.service\bin\Debug\net6.0\RazorPages.services.pdb
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.service\bin\Debug\net6.0\RazorPages.modelos.dll
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.service\bin\Debug\net6.0\RazorPages.modelos.pdb
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.service\obj\Debug\net6.0\RazorPages.services.csproj.AssemblyReference.cache
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.service\obj\Debug\net6.0\RazorPages.services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.service\obj\Debug\net6.0\RazorPages.services.AssemblyInfoInputs.cache
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.service\obj\Debug\net6.0\RazorPages.services.AssemblyInfo.cs
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.service\obj\Debug\net6.0\RazorPages.services.csproj.CoreCompileInputs.cache
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.service\obj\Debug\net6.0\RazorPages.services.csproj.CopyComplete
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.service\obj\Debug\net6.0\RazorPages.services.dll
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.service\obj\Debug\net6.0\refint\RazorPages.services.dll
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.service\obj\Debug\net6.0\RazorPages.services.pdb
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.service\obj\Debug\net6.0\ref\RazorPages.services.dll
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.service\bin\Debug\net6.0\RazorPages.services.runtimeconfig.json
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.service\obj\Debug\net6.0\RazorPages.services.genruntimeconfig.cache

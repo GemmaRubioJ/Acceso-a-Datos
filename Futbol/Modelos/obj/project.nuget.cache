@@ -1,0 +1,14 @@
+{
+  "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "igPRLhDBRymnJgWk4YEU75SjT5DTVpWwmiX3HVAsCZHWRVdcpMXn6nYDsPRmnWBKNiTgW51WSaUDJnB4tI5wlQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\noabl\\ProyectosNET\\AAD\\Futbol\\Modelos\\Modelos.csproj",
+=======
+  "dgSpecHash": "Ac75PIDwu+PZzWjwHLTdjcGA/Zs0oB+7PQz3z7CREpVcP4jfdJf4ojhbUFs8BzzLd5I4A8IDTRMo1Hk9pZ3kIg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\noabl\\ProyectosNET\\Futbol\\Modelos\\Modelos.csproj",
+>>>>>>> f73c85e6f29ce48e7232f25e7af01fcd740182d6
+  "expectedPackageFiles": [],
+  "logs": []
+}

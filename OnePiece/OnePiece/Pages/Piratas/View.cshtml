@@ -1,0 +1,22 @@
+﻿@page
+@model OnePiece.Pages.Piratas.ViewModel
+@{
+    var photo = "~/images/" + (Model.pirata.foto ?? "noimage.jpg");
+}
+
+<div class="card m-3" style="min-width: 18rem; max-width: 30%;">
+    <div class="card-header">
+        <h3>@Model.pirata.nombre</h3>
+    </div>
+    <img class="card-img-top imageThumbail" asp-append-version="true" src="@photo">
+    <div class="card-footer text-center">
+        <h3> Id: @Model.pirata.Id</h3>
+        <h3> Nombre: @Model.pirata.nombre</h3>
+        <h3> Región: @Model.pirata.pais</h3>
+        <h3> Arma: @Model.pirata.arma</h3>
+        <h3> Estadio : @Model.pirata.edad</h3>
+        <h3> Tripulación: @Model.pirata.tripulacion</h3>
+    </div>
+</div>
+
+

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Futbol", "Futbol\Futbol.csproj", "{FB94CD7E-E1B3-4BF5-93CD-C19D61333CDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modelos", "Modelos\Modelos.csproj", "{13DB1BC7-9ABA-4FC8-A131-AAEFEB21D5DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{D8D3B545-C3D6-407D-B49D-0722F2470D9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB94CD7E-E1B3-4BF5-93CD-C19D61333CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB94CD7E-E1B3-4BF5-93CD-C19D61333CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB94CD7E-E1B3-4BF5-93CD-C19D61333CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB94CD7E-E1B3-4BF5-93CD-C19D61333CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13DB1BC7-9ABA-4FC8-A131-AAEFEB21D5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13DB1BC7-9ABA-4FC8-A131-AAEFEB21D5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13DB1BC7-9ABA-4FC8-A131-AAEFEB21D5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13DB1BC7-9ABA-4FC8-A131-AAEFEB21D5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8D3B545-C3D6-407D-B49D-0722F2470D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D3B545-C3D6-407D-B49D-0722F2470D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D3B545-C3D6-407D-B49D-0722F2470D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D3B545-C3D6-407D-B49D-0722F2470D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A294ABE7-507B-4614-A70B-87A104D80C12}
+	EndGlobalSection
+EndGlobal

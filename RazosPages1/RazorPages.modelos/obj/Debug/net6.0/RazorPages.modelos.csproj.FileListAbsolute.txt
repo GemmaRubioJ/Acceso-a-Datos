@@ -1,0 +1,12 @@
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.modelos\bin\Debug\net6.0\RazorPages.modelos.deps.json
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.modelos\bin\Debug\net6.0\RazorPages.modelos.dll
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.modelos\bin\Debug\net6.0\RazorPages.modelos.pdb
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.modelos\obj\Debug\net6.0\RazorPages.modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.modelos\obj\Debug\net6.0\RazorPages.modelos.AssemblyInfoInputs.cache
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.modelos\obj\Debug\net6.0\RazorPages.modelos.AssemblyInfo.cs
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.modelos\obj\Debug\net6.0\RazorPages.modelos.csproj.CoreCompileInputs.cache
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.modelos\obj\Debug\net6.0\RazorPages.modelos.dll
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.modelos\obj\Debug\net6.0\refint\RazorPages.modelos.dll
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.modelos\obj\Debug\net6.0\RazorPages.modelos.pdb
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.modelos\obj\Debug\net6.0\ref\RazorPages.modelos.dll
+C:\Users\noabl\ProyectosNET\RazosPages1\RazorPages.modelos\obj\Debug\net6.0\RazorPages.modelos.csproj.AssemblyReference.cache

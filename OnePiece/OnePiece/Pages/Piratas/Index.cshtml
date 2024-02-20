@@ -1,0 +1,37 @@
+﻿@page
+@model OnePiece.Pages.Piratas.IndexModel
+@{
+
+}
+
+<h1>Piratas</h1>
+<br />
+
+<h3>Número de Piratas : @Model.Piratas.Count() </h3>
+<br />
+<form method="get">
+    <div class="input-group">
+        <input class="form-control" asp-for="elementoABuscar" />
+        <div class="input-group-append">
+            <button type="submit" class="btn btn-primary">Buscar</button>
+        </div>
+    </div>
+</form>
+<br />
+<div class="card-group">
+    @foreach(var pirata in Model.Piratas)
+    {
+        var photo = "~/images/" + (pirata.foto ?? "noimage.jpg");
+        <div class="card m-3" style="min-width: 18rem; max-width: 30%;">
+            <div class="card-header">
+                <h3>@pirata.nombre</h3>
+            </div>
+            <img class="card-img-top imageThumbail" asp-append-version="true" src="@photo" style="height:300px">
+            <div class="card-footer text-center">
+                <form method="post" asp-page="/Piratas/Index" asp-route-Id="@pirata.Id" class="btn btn-primary m-1">View </form>
+                <a asp-page="/Piratas/Edit" asp-route-Id="@pirata.Id" class="btn btn-primary m-1">Edit</a>
+                <a asp-page="/Piratas/Delete" asp-route-Id="@pirata.Id" class="btn btn-danger m-1">Delete</a>
+            </div>
+        </div>
+    }
+</div>

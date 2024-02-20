@@ -1,0 +1,34 @@
+﻿@page
+@using Modelos;
+@model Futbol.Pages.Equipos.BuscadorModel
+@{
+    <script>$("select").prop("selectedIndex", 0);</script>
+}
+<h1>Equipos </h1>
+<form asp-action="edit" asp-controller="application" method="get">
+    <div class="input-group">
+        <label class="col-sm-2 col-form-label" asp-for="ElementoABuscar">Categoria : </label>
+        <select class='form-select mb-3 me-3' asp-for="ElementoABuscar" asp-items="@Html.GetEnumSelectList<Categoria>()">
+            <option value=null selected>Selecciona categoria ...</option>
+        </select>
+        <button type="submit" class="btn btn-primary mb-3">Busca!</button>
+    </div>
+</form>
+
+<div class="card-group">
+    @foreach (var equipo in Model.Equipos)
+    {
+        var photo = "~/images/" + (equipo.escudo ?? "noimage.jpg");
+        <div class="card m-3" style="min-width: 18rem; max-width: 30%;">
+            <div class="card-header">
+                <h3>@equipo.nomEquipo</h3>
+            </div>
+            <img class="card-img-top imageThumbail" asp-append-version="true" src="@photo">
+            <div class="card-footer text-center">
+                <a asp-page="/Equipos/Details" asp-route-Id="@equipo.Id" class="btn btn-primary m-1">View</a>
+                <a asp-page="/Equipos/Edit" asp-route-Id="@equipo.Id" class="btn btn-primary m-1">Edit</a>
+                <a asp-page="/Equipos/Delete" asp-route-Id="@equipo.Id" class="btn btn-danger m-1">Delete</a>
+            </div>
+        </div>
+    }
+</div>

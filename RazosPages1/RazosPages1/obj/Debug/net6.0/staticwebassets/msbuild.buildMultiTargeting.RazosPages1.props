@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\RazosPages1.props" />
+</Project>

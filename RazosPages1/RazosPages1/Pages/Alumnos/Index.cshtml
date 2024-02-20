@@ -1,0 +1,44 @@
+﻿@page
+@model RazorPages1.Pages.Alumnos.IndexModel
+@{
+}
+<h1>Alumnos</h1>
+<form method="get">
+    <div class="input-group">
+        <input class="form-control" asp-for="elementoABuscar" />
+        <div class="input-group-append">
+            <button type="submit" class="btn btn-primary">Buscar</button>
+        </div>
+    </div>
+</form>
+<br />
+<br />
+<form asp-action="edit" asp-controller="application" method="get">
+    <div class="input-group">
+        <label class="col-sm-2 col-form-label" asp-for="elementoABuscar">Curso: </label>
+        <select class='form-select mb-3 me-3' asp-for="elementoABuscar" asp-items="@Html.GetEnumSelectList<Curso>()">
+            <option value=null selected>Selecciona curso ...</option>
+        </select>
+        <button type="submit" class="btn btn-primary mb-3">Busca!</button>
+    </div>
+</form>
+
+<h3>@Model.Alumnos.Count() </h3>
+<div class="card-group">
+    @foreach(var alumno in Model.Alumnos)
+    {
+        var photo = "~/images/" + (alumno.Foto ?? "noimage.jpg");
+        <div class="card m-3" style="min-width: 18rem; max-width: 30%;">
+            <div class="card-header">
+                <h3>@alumno.Nombre @alumno.Apellido</h3>
+            </div> 
+            <img class="card-img-top imageThumbail" asp-append-version="true" src="@photo">
+            <div class="card-footer text-center">
+                <a asp-page="/Alumnos/Details" asp-route-Id="@alumno.Id" class="btn btn-primary m-1">View</a>
+                <a asp-page="/Alumnos/Edit" asp-route-Id="@alumno.Id" class="btn btn-primary m-1">Edit</a>
+                <a asp-page="/Alumnos/Delete" asp-route-Id="@alumno.Id" class="btn btn-danger m-1">Delete</a>
+            </div>
+        </div>
+
+    }
+</div>

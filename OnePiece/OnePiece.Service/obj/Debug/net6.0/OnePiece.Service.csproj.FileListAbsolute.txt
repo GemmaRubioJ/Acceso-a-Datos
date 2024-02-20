@@ -1,0 +1,15 @@
+C:\Users\noabl\ProyectosNET\OnePiece\OnePiece.Service\bin\Debug\net6.0\OnePiece.Service.deps.json
+C:\Users\noabl\ProyectosNET\OnePiece\OnePiece.Service\bin\Debug\net6.0\OnePiece.Service.dll
+C:\Users\noabl\ProyectosNET\OnePiece\OnePiece.Service\bin\Debug\net6.0\OnePiece.Service.pdb
+C:\Users\noabl\ProyectosNET\OnePiece\OnePiece.Service\bin\Debug\net6.0\OnePiece.Modelos.dll
+C:\Users\noabl\ProyectosNET\OnePiece\OnePiece.Service\bin\Debug\net6.0\OnePiece.Modelos.pdb
+C:\Users\noabl\ProyectosNET\OnePiece\OnePiece.Service\obj\Debug\net6.0\OnePiece.Service.csproj.AssemblyReference.cache
+C:\Users\noabl\ProyectosNET\OnePiece\OnePiece.Service\obj\Debug\net6.0\OnePiece.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noabl\ProyectosNET\OnePiece\OnePiece.Service\obj\Debug\net6.0\OnePiece.Service.AssemblyInfoInputs.cache
+C:\Users\noabl\ProyectosNET\OnePiece\OnePiece.Service\obj\Debug\net6.0\OnePiece.Service.AssemblyInfo.cs
+C:\Users\noabl\ProyectosNET\OnePiece\OnePiece.Service\obj\Debug\net6.0\OnePiece.Service.csproj.CoreCompileInputs.cache
+C:\Users\noabl\ProyectosNET\OnePiece\OnePiece.Service\obj\Debug\net6.0\OnePiece.Service.csproj.CopyComplete
+C:\Users\noabl\ProyectosNET\OnePiece\OnePiece.Service\obj\Debug\net6.0\OnePiece.Service.dll
+C:\Users\noabl\ProyectosNET\OnePiece\OnePiece.Service\obj\Debug\net6.0\refint\OnePiece.Service.dll
+C:\Users\noabl\ProyectosNET\OnePiece\OnePiece.Service\obj\Debug\net6.0\OnePiece.Service.pdb
+C:\Users\noabl\ProyectosNET\OnePiece\OnePiece.Service\obj\Debug\net6.0\ref\OnePiece.Service.dll

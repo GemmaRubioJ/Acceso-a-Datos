@@ -1,0 +1,162 @@
+{
+  "format": 1,
+  "restore": {
+<<<<<<< HEAD
+    "C:\\Users\\noabl\\ProyectosNET\\AAD\\Futbol\\Service\\Service.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\noabl\\ProyectosNET\\AAD\\Futbol\\Modelos\\Modelos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\noabl\\ProyectosNET\\AAD\\Futbol\\Modelos\\Modelos.csproj",
+        "projectName": "Modelos",
+        "projectPath": "C:\\Users\\noabl\\ProyectosNET\\AAD\\Futbol\\Modelos\\Modelos.csproj",
+        "packagesPath": "C:\\Users\\noabl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\noabl\\ProyectosNET\\AAD\\Futbol\\Modelos\\obj\\",
+=======
+    "C:\\Users\\noabl\\ProyectosNET\\Futbol\\Service\\Service.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\noabl\\ProyectosNET\\Futbol\\Modelos\\Modelos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\noabl\\ProyectosNET\\Futbol\\Modelos\\Modelos.csproj",
+        "projectName": "Modelos",
+        "projectPath": "C:\\Users\\noabl\\ProyectosNET\\Futbol\\Modelos\\Modelos.csproj",
+        "packagesPath": "C:\\Users\\noabl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\noabl\\ProyectosNET\\Futbol\\Modelos\\obj\\",
+>>>>>>> f73c85e6f29ce48e7232f25e7af01fcd740182d6
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\noabl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+<<<<<<< HEAD
+    "C:\\Users\\noabl\\ProyectosNET\\AAD\\Futbol\\Service\\Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\noabl\\ProyectosNET\\AAD\\Futbol\\Service\\Service.csproj",
+        "projectName": "Service",
+        "projectPath": "C:\\Users\\noabl\\ProyectosNET\\AAD\\Futbol\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\noabl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\noabl\\ProyectosNET\\AAD\\Futbol\\Service\\obj\\",
+=======
+    "C:\\Users\\noabl\\ProyectosNET\\Futbol\\Service\\Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\noabl\\ProyectosNET\\Futbol\\Service\\Service.csproj",
+        "projectName": "Service",
+        "projectPath": "C:\\Users\\noabl\\ProyectosNET\\Futbol\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\noabl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\noabl\\ProyectosNET\\Futbol\\Service\\obj\\",
+>>>>>>> f73c85e6f29ce48e7232f25e7af01fcd740182d6
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\noabl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+<<<<<<< HEAD
+              "C:\\Users\\noabl\\ProyectosNET\\AAD\\Futbol\\Modelos\\Modelos.csproj": {
+                "projectPath": "C:\\Users\\noabl\\ProyectosNET\\AAD\\Futbol\\Modelos\\Modelos.csproj"
+=======
+              "C:\\Users\\noabl\\ProyectosNET\\Futbol\\Modelos\\Modelos.csproj": {
+                "projectPath": "C:\\Users\\noabl\\ProyectosNET\\Futbol\\Modelos\\Modelos.csproj"
+>>>>>>> f73c85e6f29ce48e7232f25e7af01fcd740182d6
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

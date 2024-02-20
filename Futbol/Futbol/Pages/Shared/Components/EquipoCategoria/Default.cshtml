@@ -1,0 +1,20 @@
+﻿@using Modelos;
+@model IEnumerable<CategoriaCuantos>
+<h3>Equipos por División</h3>
+<table class="table table-bordered">
+    <thead class="thead-light">
+        <tr>
+            <th>División</th>
+            <th>Nº Equipos</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var division in Model)
+        {
+            <tr>
+                <td>@division.division</td>
+                <td>@division.numEquipos</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,29 @@
+﻿@page
+@model Futbol.Pages.Equipos.IndexModel
+@{
+}
+
+<h1>EQUIPOS</h1>
+<br />
+<h3>Número de equipos en la liga : @Model.Equipos.Count() </h3>
+<br />
+<div class="col-sm-8">
+  @await Component.InvokeAsync("EquipoCategoria") 
+</div>
+<div class="card-group">
+    @foreach(var equipo in Model.Equipos)
+    {
+        var photo = "~/images/" + (equipo.escudo ?? "noimage.jpg");
+        <div class="card m-3" style="min-width: 18rem; max-width: 30%;">
+            <div class="card-header">
+                <h3>@equipo.nomEquipo</h3>
+            </div>
+            <img class="card-img-top imageThumbail" asp-append-version="true" src="@photo">
+            <div class="card-footer text-center">
+                <a asp-page="/Equipos/Details" asp-route-Id="@equipo.Id" class="btn btn-primary m-1">View</a>
+                <a asp-page="/Equipos/Edit" asp-route-Id="@equipo.Id" class="btn btn-primary m-1">Edit</a>
+                <a asp-page="/Equipos/Delete" asp-route-Id="@equipo.Id" class="btn btn-danger m-1">Delete</a>
+            </div>
+        </div>
+    }
+</div>

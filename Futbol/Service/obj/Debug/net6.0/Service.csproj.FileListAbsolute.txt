@@ -1,0 +1,33 @@
+C:\Users\noabl\ProyectosNET\Futbol\Service\bin\Debug\net6.0\Service.deps.json
+C:\Users\noabl\ProyectosNET\Futbol\Service\bin\Debug\net6.0\Service.dll
+C:\Users\noabl\ProyectosNET\Futbol\Service\bin\Debug\net6.0\Service.pdb
+C:\Users\noabl\ProyectosNET\Futbol\Service\bin\Debug\net6.0\Modelos.dll
+C:\Users\noabl\ProyectosNET\Futbol\Service\bin\Debug\net6.0\Modelos.pdb
+C:\Users\noabl\ProyectosNET\Futbol\Service\obj\Debug\net6.0\Service.csproj.AssemblyReference.cache
+C:\Users\noabl\ProyectosNET\Futbol\Service\obj\Debug\net6.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noabl\ProyectosNET\Futbol\Service\obj\Debug\net6.0\Service.AssemblyInfoInputs.cache
+C:\Users\noabl\ProyectosNET\Futbol\Service\obj\Debug\net6.0\Service.AssemblyInfo.cs
+C:\Users\noabl\ProyectosNET\Futbol\Service\obj\Debug\net6.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\noabl\ProyectosNET\Futbol\Service\obj\Debug\net6.0\Service.csproj.CopyComplete
+C:\Users\noabl\ProyectosNET\Futbol\Service\obj\Debug\net6.0\Service.dll
+C:\Users\noabl\ProyectosNET\Futbol\Service\obj\Debug\net6.0\refint\Service.dll
+C:\Users\noabl\ProyectosNET\Futbol\Service\obj\Debug\net6.0\Service.pdb
+C:\Users\noabl\ProyectosNET\Futbol\Service\obj\Debug\net6.0\ref\Service.dll
+<<<<<<< HEAD
+C:\Users\noabl\ProyectosNET\AAD\Futbol\Service\bin\Debug\net6.0\Service.deps.json
+C:\Users\noabl\ProyectosNET\AAD\Futbol\Service\bin\Debug\net6.0\Service.dll
+C:\Users\noabl\ProyectosNET\AAD\Futbol\Service\bin\Debug\net6.0\Service.pdb
+C:\Users\noabl\ProyectosNET\AAD\Futbol\Service\bin\Debug\net6.0\Modelos.dll
+C:\Users\noabl\ProyectosNET\AAD\Futbol\Service\bin\Debug\net6.0\Modelos.pdb
+C:\Users\noabl\ProyectosNET\AAD\Futbol\Service\obj\Debug\net6.0\Service.csproj.AssemblyReference.cache
+C:\Users\noabl\ProyectosNET\AAD\Futbol\Service\obj\Debug\net6.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noabl\ProyectosNET\AAD\Futbol\Service\obj\Debug\net6.0\Service.AssemblyInfoInputs.cache
+C:\Users\noabl\ProyectosNET\AAD\Futbol\Service\obj\Debug\net6.0\Service.AssemblyInfo.cs
+C:\Users\noabl\ProyectosNET\AAD\Futbol\Service\obj\Debug\net6.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\noabl\ProyectosNET\AAD\Futbol\Service\obj\Debug\net6.0\Service.csproj.CopyComplete
+C:\Users\noabl\ProyectosNET\AAD\Futbol\Service\obj\Debug\net6.0\Service.dll
+C:\Users\noabl\ProyectosNET\AAD\Futbol\Service\obj\Debug\net6.0\refint\Service.dll
+C:\Users\noabl\ProyectosNET\AAD\Futbol\Service\obj\Debug\net6.0\Service.pdb
+C:\Users\noabl\ProyectosNET\AAD\Futbol\Service\obj\Debug\net6.0\ref\Service.dll
+=======
+>>>>>>> f73c85e6f29ce48e7232f25e7af01fcd740182d6

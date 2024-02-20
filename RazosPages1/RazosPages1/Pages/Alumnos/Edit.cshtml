@@ -1,0 +1,70 @@
+﻿@page
+@model RazorPages1.Pages.Alumnos.EditModel
+@{
+    var photo = "~/images/" + (Model.alumno.Foto ?? "noimage.jpg");
+    var titulo = Model.alumno.Id > 0 ? "Editar " : "Crear";
+}
+<h1 align="center">@titulo  alumno</h1>
+<form method="post" class="mt-3" enctype="multipart/form-data"> 
+    <input type="hidden" asp-for="alumno.Id" />
+    <input id="lafoto" type="text" asp-for="alumno.Foto" />
+    <div class="form-group row">
+        <label asp-for="alumno.Nombre" class="col-sm-2 col-form-label"> </label>
+        <div class="col-sm-10">
+            <input asp-for="alumno.Nombre" class="form-control" placeholder="Nombre" />
+            <span asp-validation-for="alumno.Nombre" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label asp-for="alumno.Apellido" class="col-sm-2 col-form-label"> </label>
+        <div class="col-sm-10">
+            <input asp-for="alumno.Apellido" class="form-control" placeholder="Nombre" />
+            <span asp-validation-for="alumno.Apellido" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label asp-for="alumno.Email" class="col-sm-2 col-form-label"> </label>
+        <div class="col-sm-10">
+            <input asp-for="alumno.Email" class="form-control" placeholder="Nombre" />
+            <span asp-validation-for="alumno.Email" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label asp-for="alumno.CursoId" class="col-sm-2 col-form-label"> </label>
+        <div class="col-sm-10">
+            <select asp-for="alumno.CursoId" class="form-select mb-3" 
+            asp-items="Html.GetEnumSelectList<Curso>()">
+                <option value="">Selecciona uno</option>
+            </select>
+            <span asp-validation-for="alumno.CursoId" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label asp-for="Photo" class="col-sm-2 col-form-label"> </label>
+        <div class="col-sm-10">
+            <input asp-for="Photo" class="custom-file-input"  onchange="lafoto.value=this.value.substring(this.value.lastIndexOf('\\')+1)" />
+            <label class="custom-file-label">Click aquí para cambiar foto</label>
+        </div>
+    </div>
+    <div class="form-group row col-sm-4 offset-4">
+        <img class="imageThumbail" src="@photo" asp-append-version="true" />
+    </div>
+    <div class="form-group row">
+        <div class="col-sm-10">
+            <button type="submit" class="btn btn-primary">Save</button>
+            <a asp-page="/Alumnos/Index" class="btn btn-primary">Cancel</a>
+        </div>
+    </div>
+    
+</form>
+
+@section Scripts {
+    <script>
+        $(document).ready(function(){
+            $('.custom-file-input').on("change", function () {
+                var fileName = $(this).val().split("\\").pop();
+                $(this).next('custom-file-label').html(fileName);
+            })
+        })
+    </script>
+}
