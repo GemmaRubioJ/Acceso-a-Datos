@@ -146,8 +146,12 @@ namespace MVC2024.Controllers
 		// GET: VehiculoController/Edit/5
 		public ActionResult Edit(int id)
 		{
+            VehiculoModelo vehiculo = Contexto.Vehiculo.Include(v => v.ExtraModelo).FirstOrDefault(v => v.Id == id);
             ViewBag.SerieId = new SelectList(Contexto.Series, "ID", "NomSerie");
-            VehiculoModelo vehiculo = Contexto.Vehiculo.Find(id);
+            vehiculo.ExtraSeleccionado = vehiculo.ExtraModelo.Select(ve => ve.ExtraId).ToList();
+            var selectedExtras = vehiculo.ExtraModelo.Select(e => e.ExtraId).ToList();
+            ViewBag.losExtras = new SelectList(Contexto.Extras, "Id", "NomExtra", selectedExtras);
+
 			return View(vehiculo);
 		}
 
@@ -156,19 +160,54 @@ namespace MVC2024.Controllers
 		[ValidateAntiForgeryToken]
 		public ActionResult Edit(int id, VehiculoModelo cocheDatosNew)
 		{
-			VehiculoModelo cocheDatosOld = Contexto.Vehiculo.Find(id);
-			cocheDatosOld.Matricula = cocheDatosNew.Matricula;
+            VehiculoModelo cocheDatosOld = Contexto.Vehiculo.Include(v => v.ExtraModelo).FirstOrDefault(v => v.Id == id);
+
+            if (cocheDatosOld == null)
+            {
+                // Manejar el caso en que el vehículo no se encuentra
+                return NotFound();
+            }
+
+            // Actualizar propiedades básicas
+            cocheDatosOld.Matricula = cocheDatosNew.Matricula;
             cocheDatosOld.Color = cocheDatosNew.Color;
             cocheDatosOld.serieId = cocheDatosNew.serieId;
-			Contexto.SaveChanges();
+
+            // Procesar los extras seleccionados
+            var extrasSeleccionados = cocheDatosNew.ExtraSeleccionado ?? new List<int>();
+            var extrasAEliminar = cocheDatosOld.ExtraModelo
+                .Where(em => !extrasSeleccionados.Contains(em.ExtraId))
+                .ToList();
+            foreach (var extra in extrasAEliminar)
+            {
+                Contexto.ExtraModelo.Remove(extra);
+            }
+
+            var extrasActuales = cocheDatosOld.ExtraModelo.Select(em => em.ExtraId).ToList();
+            foreach (var extraId in extrasSeleccionados)
+            {
+                if (!extrasActuales.Contains(extraId))
+                {
+                    cocheDatosOld.ExtraModelo.Add(new VehiculoExtraModelo { VehiculoId = id, ExtraId = extraId });
+                }
+            }
+
+            // Guardar los cambios
+            Contexto.SaveChanges();
+
             try
-			{
+            {
 				return RedirectToAction(nameof(Index));
 			}
-			catch
-			{
-				return View();
-			}
+			catch (Exception ex)
+            {
+                // Log the error (uncomment ex variable name and write a log.)
+                ModelState.AddModelError("", "Unable to save changes. " +
+                    "Try again, and if the problem persists " +
+                    "see your system administrator.");
+                // Consider logging the error details here
+                return View(cocheDatosOld);
+            }
 		}
 
 		// GET: VehiculoController/Delete/5

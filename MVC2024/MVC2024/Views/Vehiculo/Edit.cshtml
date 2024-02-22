@@ -29,6 +29,10 @@
                 <span asp-validation-for="serieId" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="ExtraSeleccionado" class="control-label"></label>
+                <select multiple asp-for="ExtraSeleccionado" class="form-control" asp-items="ViewBag.losExtras"></select>
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>
