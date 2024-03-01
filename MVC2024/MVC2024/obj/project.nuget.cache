@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Nm/7IEZyUDG5l8saD5uR4pxlFMIJBptcLpL4+Qa669FnNyd5SMuEt3Hoz9aV/wIpsVlhqOpqwA2fl3IDsuZdMQ==",
+  "dgSpecHash": "rL8Qq9qbQKEwcpOV0VRFegssVDztgA8B2xhmBSayb1w5rD7RAF6tgV0LuzaY/jUmNkLmCDQi7/YkXRJC4giayA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\noabl\\Documents\\CLASE2\\DAM2-AAD-2EV\\MVC2024\\MVC2024\\MVC2024.csproj",
+  "projectFilePath": "C:\\Users\\noabl\\ProyectosNET\\AAD\\MVC2024\\MVC2024\\MVC2024.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\noabl\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\noabl\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
